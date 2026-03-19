@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finesse Medical Spa — European Aesthetic Precision</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Italiana&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="cur"></div>
+  <div id="ring"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#home" class="logo">Finesse <em>Medical Spa</em></a>
+    <div class="nav-r">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#treatments">Treatments</a></li>
+        <li><a href="#why-euro">Why European</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#aftercare">Aftercare</a></li>
+      </ul>
+      <a href="#contact" class="nav-book">Book Now</a>
+      <div class="ham" id="ham"><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <div class="mob" id="mob">
+    <a href="#home" onclick="cm()">Home</a>
+    <a href="#about" onclick="cm()">About</a>
+    <a href="#treatments" onclick="cm()">Treatments</a>
+    <a href="#why-euro" onclick="cm()">Why European</a>
+    <a href="#pricing" onclick="cm()">Pricing</a>
+    <a href="#aftercare" onclick="cm()">Aftercare</a>
+    <a href="#contact" onclick="cm()" class="mob-book">Book Now</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="hero.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">European Expertise. Advanced Training. Precision Aesthetic Medicine.</div>
+      <h1>Excellence in<br><em>Aesthetic Medicine</em></h1>
+      <p class="hero-sub">At Finesse Medical Spa, excellence begins with continuous education and international
+        expertise. Our lead practitioner is not only a highly experienced aesthetic specialist but also an educator and
+        trainer in Europe — combining scientific precision with artistic understanding of facial anatomy.</p>
+      <div class="hero-ctas">
+        <a href="#treatments" class="btn-outline-white">Explore Treatments</a>
+        <a href="#contact" class="btn-gold-fill">Book Consultation</a>
+      </div>
+    </div>
+    <div class="hero-side-text">Katarzyna Marcinec — Master Injector</div>
+    <div class="hero-scroll-line"></div>
+    <div class="hero-images-strip">
+      <div class="his-item"><img src="image1.webp" alt=""></div>
+      <div class="his-item his-mid"><img src="image3.webp" alt=""></div>
+      <div class="his-item"><img src="image6.webp" alt=""></div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>Botox</span><span class="dot">◆</span>
+      <span>Lip Augmentation</span><span class="dot">◆</span>
+      <span>Facial Volumetry</span><span class="dot">◆</span>
+      <span>Biostimulators</span><span class="dot">◆</span>
+      <span>Mesotherapy</span><span class="dot">◆</span>
+      <span>Dermal Fillers</span><span class="dot">◆</span>
+      <span>European Precision</span><span class="dot">◆</span>
+      <span>Natural Results</span><span class="dot">◆</span>
+      <span>Botox</span><span class="dot">◆</span>
+      <span>Lip Augmentation</span><span class="dot">◆</span>
+      <span>Facial Volumetry</span><span class="dot">◆</span>
+      <span>Biostimulators</span><span class="dot">◆</span>
+      <span>Mesotherapy</span><span class="dot">◆</span>
+      <span>Dermal Fillers</span><span class="dot">◆</span>
+      <span>European Precision</span><span class="dot">◆</span>
+      <span>Natural Results</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-left rev">
+      <div class="section-label">About Us</div>
+      <h2>Aesthetic Expertise<br>You Can <em>Trust</em></h2>
+      <p>Finesse Medical Spa is led by Katarzyna Marcinec, an internationally trained aesthetic practitioner known for
+        delivering natural, structured, and refined results. With extensive experience across Europe and the United
+        States, Katarzyna has trained at leading aesthetic institutions and has served as an instructor for aesthetic
+        academies in Europe.</p>
+      <p>Clients trust Finesse Medical Spa because every treatment is customized to the individual, ensuring safe,
+        effective, and natural-looking outcomes.</p>
+      <div class="about-sig">
+        <img src="image2.webp" alt="Katarzyna Marcinec" class="sig-photo">
+        <div>
+          <strong>Katarzyna Marcinec</strong>
+          <span>Lead Practitioner & Founder</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-right rev d2">
+      <div class="about-mosaic">
+        <div class="am-large"><img src="image4.webp" alt="Aesthetic result"></div>
+        <div class="am-small top"><img src="image10.webp" alt="Precision treatment"></div>
+        <div class="am-small bottom"><img src="image5.webp" alt="Natural glow"></div>
+      </div>
+      <div class="about-stat-block">
+        <div class="asb-item">
+          <strong>10+</strong><span>Years of Expertise</span>
+        </div>
+        <div class="asb-div"></div>
+        <div class="asb-item">
+          <strong>EU</strong><span>Certified Protocols</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION STRIP -->
+  <div class="mission-strip">
+    <div class="ms-img"><img src="image5.webp" alt=""></div>
+    <div class="ms-content">
+      <div class="ms-quote">"Precision is not a technique.<br>It is a <em>philosophy.</em>"</div>
+      <div class="ms-pillars">
+        <div class="ms-pill"><span>Integrity</span>
+          <p>We only recommend what truly serves your long-term aesthetic goals.</p>
+        </div>
+        <div class="ms-pill"><span>Precision</span>
+          <p>Every injection is measured and placed with anatomical exactness.</p>
+        </div>
+        <div class="ms-pill"><span>Artistry</span>
+          <p>Aesthetic medicine as a fine art, focused on harmony and expression.</p>
+        </div>
+        <div class="ms-pill"><span>Safety</span>
+          <p>Strict clinical protocols ensure your health is never compromised.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TREATMENTS -->
+  <section id="treatments" class="treatments">
+    <div class="treat-header rev">
+      <div>
+        <div class="section-label">Treatments</div>
+        <h2>Advanced Aesthetic <em>Treatments</em></h2>
+      </div>
+      <a href="#pricing" class="btn-gold-fill">View Pricing</a>
+    </div>
+    <div class="treat-grid">
+      <div class="tcard rev d1">
+        <div class="tcard-img"><img src="image7.webp" alt="Botox"></div>
+        <div class="tcard-body">
+          <div class="tcard-num">01</div>
+          <h3>Botox</h3>
+          <p>Botox treatments help reduce wrinkles, soften facial lines, and prevent deeper expression lines while
+            maintaining natural movement.</p>
+          <div class="tcard-foot"><span>Full Forehead from</span><strong>$300</strong></div>
+        </div>
+      </div>
+      <div class="tcard tcard-dark rev d2">
+        <div class="tcard-img"><img src="image1.webp" alt="Lip Augmentation"></div>
+        <div class="tcard-body">
+          <div class="tcard-num">02</div>
+          <h3>Lip Augmentation</h3>
+          <p>Enhance lip shape, volume, and symmetry using advanced filler techniques for beautifully balanced,
+            natural-looking lips.</p>
+          <div class="tcard-foot"><span>Lip Flip from</span><strong>$110</strong></div>
+        </div>
+      </div>
+      <div class="tcard rev d3">
+        <div class="tcard-img"><img src="image5.webp" alt="Facial Volumetry"></div>
+        <div class="tcard-body">
+          <div class="tcard-num">03</div>
+          <h3>Facial Volumetry</h3>
+          <p>Restore lost facial volume in the cheeks, jawline, and chin to create a more youthful and defined
+            appearance.</p>
+          <div class="tcard-foot"><span>Per Syringe from</span><strong>$400</strong></div>
+        </div>
+      </div>
+      <div class="tcard rev d3">
+        <div class="tcard-img"><img src="image8.webp" alt="Mesotherapy"></div>
+        <div class="tcard-body">
+          <div class="tcard-num">04</div>
+          <h3>Mesotherapy</h3>
+          <p>Delivers vitamins, nutrients, and active ingredients directly into the skin to rejuvenate and revitalize
+            the complexion.</p>
+          <div class="tcard-foot"><span>Face from</span><strong>$250</strong></div>
+        </div>
+      </div>
+      <div class="tcard tcard-dark rev d4">
+        <div class="tcard-img"><img src="image12.jpg" alt="Dermal Fillers"></div>
+        <div class="tcard-body">
+          <div class="tcard-num">05</div>
+          <h3>Dermal Fillers</h3>
+          <p>Premium fillers smooth wrinkles, restore volume, and sculpt facial features with precision using Juvederm,
+            Restylane, or Belotero.</p>
+          <div class="tcard-foot"><span>Per Syringe from</span><strong>$400</strong></div>
+        </div>
+      </div>
+      <div class="tcard rev d1">
+        <div class="tcard-img"><img src="image4.webp" alt="Biostimulators"></div>
+        <div class="tcard-body">
+          <div class="tcard-num">06</div>
+          <h3>Biostimulators</h3>
+          <p>Stimulate natural collagen production, improving skin texture, elasticity, and overall facial structure for
+            long-lasting regeneration.</p>
+          <div class="tcard-foot"><span>Starting from</span><strong>$300</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- WHY EUROPEAN -->
+  <section id="why-euro" class="why-euro">
+    <div class="we-img-col rev">
+      <img src="image6.webp" alt="European Precision" class="we-main-img">
+      <div class="we-badge">European<br>Standards</div>
+    </div>
+    <div class="we-text-col rev d2">
+      <div class="section-label">Why European Aesthetics</div>
+      <h2>The European Standard<br>in Aesthetic <em>Medicine</em></h2>
+      <p>In Europe, aesthetic procedures follow stricter clinical regulations and a deeper respect for facial anatomy.
+        Neurotoxins such as Botox are treated as precise therapeutic tools — not mass-market cosmetic products. Many
+        clinics prioritize revenue over quality, which can lead to over-diluted neurotoxins, artificial results, and
+        shorter-lasting treatments.</p>
+      <p
+        style="font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-light);margin-bottom:10px;margin-top:24px;">
+        Our Approach</p>
+      <ul class="we-list">
+        <li>Full-strength pharmaceutical products</li>
+        <li>Anatomical facial mapping</li>
+        <li>Targeted injections only where medically needed</li>
+        <li>Natural and expressive results</li>
+        <li>Longer-lasting treatments</li>
+      </ul>
+      <div class="we-compare">
+        <div class="wec-row wec-head">
+          <span></span><span>Typical US</span><span>Finesse</span>
+        </div>
+        <div class="wec-row">
+          <span>Dilution</span><span class="neg">Over-diluted</span><span class="pos">Full-strength</span>
+        </div>
+        <div class="wec-row">
+          <span>Precision</span><span class="neg">One-size-fits-all</span><span class="pos">Anatomical mapping</span>
+        </div>
+        <div class="wec-row">
+          <span>Results last</span><span class="neg">2–4 months</span><span class="pos">4–6 months</span>
+        </div>
+        <div class="wec-row">
+          <span>Outcome</span><span class="neg">Frozen / overfilled</span><span class="pos">Natural & refined</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="pricing">
+    <div class="pricing-head rev">
+      <div class="section-label">Pricing</div>
+      <h2>Injectable <em>Treatments</em></h2>
+    </div>
+    <div class="pricing-grid">
+      <div class="pcol rev d1">
+        <div class="pcol-head">Neuromodulators</div>
+        <div class="prow"><span>Full Forehead (2 Areas)</span><strong>$300</strong></div>
+        <div class="prow"><span>3 Areas (Forehead + Eyes)</span><strong>$400</strong></div>
+        <div class="prow"><span>Lip Flip</span><strong>$110</strong></div>
+      </div>
+      <div class="pcol pcol-highlight rev d2">
+        <div class="pcol-head">Fillers by Syringe 1ml</div>
+        <div class="prow"><span>Belotero</span><strong>$420</strong></div>
+        <div class="prow"><span>Juvederm</span><strong>$400</strong></div>
+        <div class="prow"><span>Restylane</span><strong>$400</strong></div>
+        <div class="prow"><span>Radiesse</span><strong>$450</strong></div>
+        <div class="prow"><span>Sculptra</span><strong>$500</strong></div>
+        <div class="prow"><span>Skinvive</span><strong>$300</strong></div>
+      </div>
+      <div class="pcol rev d3">
+        <div class="pcol-head">Biostimulators &amp; Meso</div>
+        <div class="prow"><span>Hair Restoration</span><strong>$300</strong></div>
+        <div class="prow"><span>Bio Stimulator Face Rejuran</span><strong>$400</strong></div>
+        <div class="prow"><span>Under Eyes Rejuran</span><strong>$300</strong></div>
+        <div class="prow"><span>Mesotherapy — Face</span><strong>$250</strong></div>
+        <div class="prow"><span>Meso — Face, Neck, Décolleté</span><strong>$400</strong></div>
+        <div class="prow"><span>Dissolve Filler (from)</span><strong>$150</strong></div>
+      </div>
+    </div>
+    <div class="pricing-note rev">*Multi-syringe discounts available. Book a consultation to discuss your personalised
+      plan.</div>
+  </section>
+
+  <!-- MEET PRACTITIONER -->
+  <section class="meet">
+    <div class="meet-img-col">
+      <img src="image2.webp" alt="Katarzyna Marcinec">
+      <div class="meet-img-overlay"></div>
+    </div>
+    <div class="meet-text-col rev d2">
+      <div class="section-label">Your Practitioner</div>
+      <h2>Katarzyna<br><em>Marcinec</em></h2>
+      <p>Katarzyna Marcinec is not only a highly experienced aesthetic specialist but also an educator and trainer in
+        Europe, teaching advanced aesthetic techniques to other medical professionals. Through ongoing training,
+        international certifications, and hands-on instruction, she remains deeply connected to the latest innovations
+        in aesthetic medicine.</p>
+      <p>Her expertise includes advanced facial anatomy and muscle mapping, correcting improperly performed treatments,
+        precision neurotoxin injections, and subtle facial contour restoration.</p>
+      <div class="meet-creds">
+        <div class="mc-item">
+          <div class="mc-num">10+</div>
+          <div>Years in Medical Aesthetics</div>
+        </div>
+        <div class="mc-item">
+          <div class="mc-num">EU</div>
+          <div>Certified Educator & Trainer</div>
+        </div>
+        <div class="mc-item">
+          <div class="mc-num">★</div>
+          <div>International Certifications</div>
+        </div>
+      </div>
+      <a href="#contact" class="btn-gold-fill">Book with Katarzyna</a>
+    </div>
+  </section>
+
+  <!-- AFTERCARE -->
+  <section id="aftercare" class="aftercare">
+    <div class="aftercare-head rev">
+      <div class="section-label">Post-Treatment Care</div>
+      <h2>Post Treatment <em>Instructions</em></h2>
+    </div>
+    <div class="aftercare-grid">
+      <div class="aftercare-img rev">
+        <img src="image3.webp" alt="Aftercare">
+      </div>
+      <div class="aftercare-steps">
+        <div class="ac-step rev d1">
+          <div class="ac-num">01</div>
+          <div class="ac-body">
+            <h4>Avoid Touching Injection Sites</h4>
+            <p>Do not massage, rub, or apply pressure to treated areas for at least 24 hours after the procedure.</p>
+          </div>
+        </div>
+        <div class="ac-step rev d2">
+          <div class="ac-num">02</div>
+          <div class="ac-body">
+            <h4>Avoid Physical Activity</h4>
+            <p>Avoid strenuous exercise or heavy lifting for 24 hours after treatment.</p>
+          </div>
+        </div>
+        <div class="ac-step rev d3">
+          <div class="ac-num">03</div>
+          <div class="ac-body">
+            <h4>Avoid Heat Exposure</h4>
+            <p>Avoid saunas, tanning beds, hot tubs, and excessive sun exposure for two weeks after treatment.</p>
+          </div>
+        </div>
+        <div class="ac-step rev d4">
+          <div class="ac-num">04</div>
+          <div class="ac-body">
+            <h4>Avoid Alcohol</h4>
+            <p>Do not consume alcohol for 24 hours after the procedure to minimize swelling and bruising.</p>
+          </div>
+        </div>
+        <div class="ac-step rev d1">
+          <div class="ac-num">05</div>
+          <div class="ac-body">
+            <h4>No Makeup for 24 Hours</h4>
+            <p>Avoid applying makeup for the first 24 hours to reduce risk of irritation and infection.</p>
+          </div>
+        </div>
+        <div class="ac-step rev d2">
+          <div class="ac-num">06</div>
+          <div class="ac-body">
+            <h4>Skin Moisturization</h4>
+            <p>Use gentle, fragrance-free moisturizers to support skin healing. Avoid products containing retinoids or
+              AHA/BHA acids.</p>
+          </div>
+        </div>
+        <div class="ac-step rev d3">
+          <div class="ac-num">07</div>
+          <div class="ac-body">
+            <h4>Arnica Ointment</h4>
+            <p>Apply arnica ointment to reduce bruising or swelling if necessary following your treatment.</p>
+          </div>
+        </div>
+        <div class="ac-step rev d4">
+          <div class="ac-num">08</div>
+          <div class="ac-body">
+            <h4>Follow-Up Appointment</h4>
+            <p>A follow-up visit is recommended two weeks after treatment. If severe symptoms occur such as swelling,
+              headaches, or vision problems, contact your provider immediately.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="cta">
+    <div class="cta-bg"><img src="image2.webp" alt=""></div>
+    <div class="cta-veil"></div>
+    <div class="cta-inner rev">
+      <div class="section-label cta-label">Contact / Book Now</div>
+      <h2>Schedule Your <em>Consultation</em></h2>
+      <p>Experience the power of European precision aesthetics. Book your consultation today and discover a refined
+        approach to aesthetic medicine.</p>
+      <a href="tel:3133309999" class="btn-gold-fill cta-btn">Request a Consultation</a>
+      <div class="cta-contacts">
+        <a href="tel:3133309999">☏ (313) 330-9999</a>
+        <a href="mailto:book@finessemedicalspa.com">✉ book@finessemedicalspa.com</a>
+      </div>
+      <p class="cta-tagline">See the Difference. Feel the Difference.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="f-logo">Finesse <em>Medical Spa</em></div>
+    <div class="f-links">
+      <a href="#about">About</a>
+      <a href="#treatments">Treatments</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#aftercare">Aftercare</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <small>© 2025 Finesse Medical Spa. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
